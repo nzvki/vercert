@@ -1,0 +1,42 @@
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <h1 class="navbar-brand">VeryCert</h1>
+        <p class="network-name">A Blockchain based academic certificate verification system</p>
+      
+      
+      </div>
+      <ul class="nav navbar-nav">
+        
+        <li class="dropdown active">
+          <a class="dropdown-toggle" data-toggle="dropdown">VERIFY</a>
+          <ul class="dropdown-menu scrollable-menu">
+            
+            <li><a [routerLink]="['/VerifyCert']">Verify Certificate</a></li>
+            
+          </ul>
+      </li>
+  
+        <li class="dropdown active">
+          <a class="dropdown-toggle" data-toggle="dropdown">SCHOOLS</a>
+          <ul class="dropdown-menu scrollable-menu">
+            
+            <li><a [routerLink]="['/Certifier']">Schools and Educational Institutes</a></li>
+            
+          </ul>
+      </li>
+
+      <li class="dropdown active">
+        <a class="dropdown-toggle" data-toggle="dropdown">CERTIFICATES</a>
+        <ul class="dropdown-menu scrollable-menu">
+          
+          <li><a [routerLink]="['/Certificate']">Academic Certificates</a></li>
+          
+        </ul>
+    </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <router-outlet></router-outlet>

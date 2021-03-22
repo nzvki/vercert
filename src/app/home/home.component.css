@@ -1,0 +1,23 @@
+
+.container {
+    background-color: rgb(233, 239, 255);
+    margin: auto;
+    width:  100%; 
+    padding: 10px;
+    text-align: center;
+    font: size 200%;
+}
+.jumbotron {
+    background-color: rgb(234, 239, 241);
+    left: 90px;
+    font: size 120px;
+    font-weight: bold;
+    font-family: Georgia, serif, monospace;
+}
+.filler {
+    font: size 28px;
+    background-color: rgb(233, 239, 255);
+    margin: auto;
+    width:  100%; 
+    padding: 3px;
+}
